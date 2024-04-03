@@ -15,6 +15,9 @@ export default function Page() {
             <p className="py-6">
               Final project - Grumble (Tinder for Restaurants)
             </p>
+            <Link href="https://final-week-project.vercel.app/">
+              See the final product here
+            </Link>
             <Link href="https://github.com/maxtalks123?tab=repositories">
               <button className="btn btn-primary">My Github</button>
             </Link>
