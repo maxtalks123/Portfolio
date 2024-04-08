@@ -1,5 +1,6 @@
 import Link from "next/link";
 import "/public/maxpicture.png";
+import RiddlePage from "./components/RiddlePage";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           </Link>
         </div>
       </div>
+      <RiddlePage />
     </div>
   );
 }
