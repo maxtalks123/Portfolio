@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function NavigationBar() {
   return (
-    <div className="navbar bg-base-80 space-x-40 relative">
+    <div className="navbar bg-base-80 space-x-10 relative overflow-x-contain">
       <div className="flex">
         <Link href="/" className="btn btn-ghost text-xl">
           Home
