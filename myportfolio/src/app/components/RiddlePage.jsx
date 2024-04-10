@@ -3,7 +3,7 @@ export default async function RiddlePage() {
   const riddle = await fetch("https://riddles-api.vercel.app/random");
   const result = await riddle.json();
   return (
-    <div className="bg-secondary flex-column text-center text-lg p-5 m-3 mx-auto max-w-m">
+    <div className="bg-violet-900 flex-column text-center text-lg p-5 m-3 mx-auto max-w-fit">
       <h1 className="underline text-3xl">
         Try a riddle, courtesy of riddle API:
       </h1>
